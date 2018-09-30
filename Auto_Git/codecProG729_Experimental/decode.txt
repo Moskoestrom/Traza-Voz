@@ -1,0 +1,7 @@
+﻿Windows: cp_g729_decoder.exe sample.raw sample.pcm
+
+Linux: wine cp_g729_decoder.exe sample.raw sample.pcm
+
+Signed 16-bit
+Sin endianness
+8000 Hz
