@@ -56,6 +56,7 @@ rm wire_156.txt
 rm wire_139.txt
 rm wire_138.txt
 rm wire_140.txt
+rm tmp_filter.txt
 
 #Don't touch this mdfk!
 gnome-terminal -x bash -c "sshpass -p ${Password156} ssh cdr@209.208.212.156" 

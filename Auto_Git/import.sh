@@ -93,6 +93,7 @@ do
 	wine cp_g729_decoder.exe ${stream} stream${i}.wav
 	mv /${here}/codecProG729_Experimental/stream${i}.wav /${here}/${name_dir}/${dnis}/stream${i}.wav
 	cd ${here}/${name_dir}/${dnis}
+	chmod 777 *.wav
 done
 
 
