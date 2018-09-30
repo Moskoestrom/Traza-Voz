@@ -91,9 +91,12 @@ do
 	cp -p /${here}/${name_dir}/${dnis}/${stream} /${here}/codecProG729_Experimental/${stream}
 	cd /${here}/codecProG729_Experimental/
 	wine cp_g729_decoder.exe ${stream} stream${i}.wav
+	wine cp_g729_decoder.exe ${stream} stream${i}.pcm
 	mv /${here}/codecProG729_Experimental/stream${i}.wav /${here}/${name_dir}/${dnis}/stream${i}.wav
+	mv /${here}/codecProG729_Experimental/stream${i}.pcm /${here}/${name_dir}/${dnis}/stream${i}.pcm
 	cd ${here}/${name_dir}/${dnis}
 	chmod 777 *.wav
+	chmod 777 *.pcm
 done
 
 
